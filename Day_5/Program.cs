@@ -10,7 +10,11 @@ namespace Day_5
     {
         static void Main(string[] args)
         {
-            String dati;
+
+            Funkcija(); //musu funkcijas izsauksana
+
+
+            /*String dati;
             Console.WriteLine("Ludzu ievadiet ka tevi sauc ?");
             dati = Console.ReadLine();
             Console.WriteLine("Tevi sauc " + dati);
@@ -33,18 +37,50 @@ namespace Day_5
             Console.WriteLine("Ludzu ievadiet rinka linijas radiusu ");
             string r = Console.ReadLine();
             radius = Convert.ToInt16(r);
-            
-            
 
+          
             double di = 2 * radius;
             double dl = 2 * 3.14 * radius;
 
             Console.WriteLine("Diametrs ir " + di + " garss " + " un laukums ir " + dl + " liels" );
 
+            
+    */
+            /*String dati2;
+            Console.WriteLine("Vai sveicinasies?(atbildi ludzu ar JA vai NE ");
+            dati2 = Console.ReadLine();
 
-            Console.ReadLine();
+            if (dati2 == "NE")
+            {
+                Console.WriteLine("zel gan");
+                Console.ReadLine();
 
+            }
+            else
+            {
+                if (dati2 == "JA")
+                {
 
+                    Console.WriteLine("Ka tevi sauc?");
+                }
+                Console.ReadLine();
+                }
+                */
         }
+            static void Funkcija()
+
+            {
+
+                string x;
+                Console.WriteLine("Ievadiet skaitli ");
+                x = Console.ReadLine();
+
+                string rezultats = ("Mana virkne" + x);
+
+                Console.WriteLine(rezultats);
+            Console.ReadLine();
+            }
+
+        
     }
 }
