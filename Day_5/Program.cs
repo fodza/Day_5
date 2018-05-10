@@ -10,6 +10,12 @@ namespace Day_5
     {
         static void Main(string[] args)
         {
+            String dati;
+            Console.WriteLine("Ludzu ievadiet ka tevi sauc ?");
+            dati = Console.ReadLine();
+            Console.WriteLine("Tevi sauc " + dati);
+            Console.ReadLine();
+
         }
     }
 }
