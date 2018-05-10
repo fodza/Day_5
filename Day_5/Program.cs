@@ -16,7 +16,7 @@ namespace Day_5
             Console.WriteLine("Tevi sauc " + dati);
             
             int gads1;
-            Console.WriteLine("Ludzu ievadiet gadu,kura sobrid dzivojam ");
+            Console.WriteLine("Ludzu ievadiet gadu,kura gada sobrid dzivojam ");
             string b = Console.ReadLine();
             gads1 = Convert.ToInt16(b);
             
@@ -28,6 +28,19 @@ namespace Day_5
             int c = gads1 - gads2;
 
             Console.WriteLine("Jus esat " + c + " gadus vecs");
+
+            int radius;
+            Console.WriteLine("Ludzu ievadiet rinka linijas radiusu ");
+            string r = Console.ReadLine();
+            radius = Convert.ToInt16(r);
+            
+            
+
+            double di = 2 * radius;
+            double dl = 2 * 3.14 * radius;
+
+            Console.WriteLine("Diametrs ir " + di + " garss " + " un laukums ir " + dl + " liels" );
+
 
             Console.ReadLine();
 
